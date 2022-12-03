@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def get_char(num:int):
+def get_char(num: int):
     if num == 0:
         return 'a'
     elif num == 1:
@@ -14,8 +14,10 @@ def get_char(num:int):
     else:
         return 'f'
 
+
 def print_hexa(num, num1, num2):
-    print("{} = 0X{}{}".format(num, num1, num2))
+    print("{} = 0x{}{}".format(num, num1, num2))
+
 
 for num in range(0, 99):
     if num < 10:
