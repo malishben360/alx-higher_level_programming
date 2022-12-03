@@ -7,10 +7,10 @@ def comb(str):
 def fizzbuzz():
     for num in range(1, 101):
         if num % 3 == 0 and num % 5 == 0:
-            comb("fizzbuzz")
+            comb("FizzBuzz")
         elif num % 3 == 0:
-            comb("fizz")
+            comb("Fizz")
         elif num % 5 == 0:
-            comb("buzz")
+            comb("Buzz")
         else:
             comb(num)
