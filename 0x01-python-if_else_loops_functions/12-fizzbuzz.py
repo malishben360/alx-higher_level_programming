@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def comb(str):
-    print("{}".format(str), end="")
+    print("{} ".format(str), end="")
 
 
 def fizzbuzz():
@@ -14,6 +14,3 @@ def fizzbuzz():
             comb("buzz")
         else:
             comb(num)
-
-        if num < 100:
-            comb(" ")
