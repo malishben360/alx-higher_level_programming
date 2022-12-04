@@ -15,6 +15,7 @@ if op != '+' and op != '-' and op != '*' and op != '/':
     print("Unknown operator. Available operators: +, -, * and /")
     exit(1)
 
+
 def calc(a, b, op):
     if op == '+':
         return add(a, b)
