@@ -13,8 +13,8 @@ int is_palindrome(listint_t **head)
 	listint_t *tmp1 = NULL;
 	listint_t *tmp2 = NULL;
 
-	if (head == NULL)
-		exit(EXIT_FAILURE);
+	if (head == NULL || *head == NULL)
+		return (1);
 
 	tmp1 = *head;
 	while (tmp1 != NULL)
