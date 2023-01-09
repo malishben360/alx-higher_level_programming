@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+"""A single linkedlist class defination.
+"""
+
 
 class Node:
+    """Node class definatiom.
+
+    `data`: value of the node
+    `next_node`: the next node
+    """
+
     def __init__(self, data, next_node=None):
         self.data = data
         self.next_node = next_node
@@ -27,6 +36,9 @@ class Node:
 
 
 class SinglyLinkedList:
+    """Linkedlist class defination.
+    """
+
     def __str__(self):
         rtn = ""
         ptr = self.__head
