@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Blueprint for the geometric class"""
+
+
 class BaseGeometry:
     """ Class that defines the attributes of Geometric Shapes """
 
