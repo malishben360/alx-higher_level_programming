@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Class that modifies instances of other classes """
+
+
 def add_attribute(obj, name, value):
     """ Function that adds a new attribute to an object
 
