@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Custom implementation of the Integer class """
+
+
 class MyInt(int):
     """ Class that inherits from class int"""
 
