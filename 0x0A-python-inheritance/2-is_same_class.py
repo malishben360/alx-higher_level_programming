@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Conpare two given classes if they are same or not"""
+
+
 def is_same_class(obj, a_class):
     """ Function that returns True/False if obj is a type of a_class
 
